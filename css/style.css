@@ -1,0 +1,305 @@
+/* body */
+html{
+	font-size: 62.5%;
+}
+
+body {
+    background-color: #fff;
+    font-size: 1.8rem;
+	font-family: 'Roboto', sans-serif,'Noto Sans JP', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #505050;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+/* header */
+.header {
+    top: 0px;
+    z-index: 1;
+    color: #505050;
+    height: 74px;
+    /* padding: 0 30px; */
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+}
+
+.header-inner {
+    /* flexbox */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem;
+    height: 100%;
+}
+
+.site-title {
+    font-size: 4rem;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.nav-item:last-of-type {
+    margin-right: 0px;
+}
+
+.link-btn {
+    display: block;
+    max-width: 170px;
+    max-height: 52px;
+    width: 17rem;
+    height: 5.2rem;
+    line-height: 5.2rem;
+    font-size: 2.2rem;
+    background-color: #2C7CFF;
+    border-radius: 1rem;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.section-wrapper {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.content-wrapper{
+    margin: auto 5.5rem;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 5rem;
+    color: #2C7CFF;
+    font-size: 4rem;
+    text-decoration: underline #2C7CFF;
+}
+
+.section-text {
+    font-size: 1.8rem;
+    color: #505050;
+    margin-bottom: 5rem;
+}
+
+/* fv */
+.fv {
+    height: 90vh;
+    background-image: url(../images/sea.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.fv p{
+    margin-bottom: ３rem;
+}
+
+.main-copy {
+    font-size: 6rem;
+}
+
+/* About */
+.about-content{
+    display: flex;
+}
+
+.about-img{
+    margin-right: 3rem;
+    flex: 1;
+}
+.about-img img{
+    object-fit: cover;
+    width: 100%;
+    max-width: 570px;
+}
+
+.about-intro{
+    flex: 1;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+}
+
+.about-item{
+    margin-bottom: 1rem;
+}
+
+.about-item h3{
+    color: #2C7CFF;
+    font-size: 3rem;
+    text-decoration: #2C7CFF underline;
+    margin-bottom: 1rem;
+}
+
+.about-item dd{
+    margin-left: 3rem;
+}
+
+.about-item dd::before{
+    content: "ー ";
+}
+
+/* Works */
+.works-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.works-item {
+    width: 37rem;
+    height: 37rem;
+    border: 1px solid #CCC;
+}
+
+.work-img {
+    background-color: #CCC;
+    width: 100%;
+    height: 28rem;
+    display: flex;
+}
+
+.work-img img{
+    margin: auto;
+}
+
+.work-txt{
+    height: 9rem;
+    display: flex;
+}
+
+.work-txt p{
+    margin: auto;
+}
+
+/* Service */
+.service-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.service-item {
+    width: 37rem;
+    height: 22rem;
+    border: 1px solid #CCC;
+}
+
+.service-img {
+    height: 30%;
+    padding: 1rem 1rem;
+    /* background-color: #CCC; */
+}
+
+/* skills */
+.skill-wrapper {
+    background-image: url(../images/skill_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skills-title{
+    color: #fff;
+    text-align: left;
+    margin-left: 5.5rem;
+    margin-bottom: 0;
+    padding-bottom: 3.8rem;
+    padding-top: 2.9rem;
+    font-size: 6rem;
+}
+
+.skill-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skill-item{
+    width: 34rem;
+    border: 3px solid #fff;
+    margin-bottom: 3.5rem;
+    margin-right: 6rem;
+}
+
+.skill-img {
+    width: 100%;
+}
+
+.skill-img img{
+    width: 25%;
+}
+
+.skill-txt{
+    font-size: 3.5rem;
+    background-color: #fff;
+    color: #505050;
+}
+
+/* Contacts */
+.form-list {
+    width: 57rem;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.form-list dt{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.form-list input{
+    width: 100%;
+    height: 3.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-list textarea{
+    width: 100%;
+    height: 22rem;
+    margin-bottom: 2rem;
+}
+
+/* footer */
+footer{
+    margin-top: 8.5rem;
+    height: 15rem;
+    text-align: center;
+    background-color: #2C7CFF;
+    color: #fff;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.footer-item a{
+    color:#fff;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
