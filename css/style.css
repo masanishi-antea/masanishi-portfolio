@@ -1,6 +1,7 @@
 /* body */
 html{
 	font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -28,6 +29,11 @@ p {
     position: fixed;
     background-color: #fff;
     width: 100%;
+}
+
+.header a:hover{
+    opacity: .7;
+    transition: .3s;
 }
 
 .header-inner {
@@ -171,6 +177,11 @@ p {
     border: 1px solid #CCC;
 }
 
+.works-item:hover{
+    opacity: .7;
+    transition: .3s;
+}
+
 .work-img {
     background-color: #CCC;
     width: 100%;
@@ -180,7 +191,10 @@ p {
 
 .work-img img{
     margin: auto;
+    object-fit: cover;
+    width: 100%;
 }
+
 
 .work-txt{
     height: 9rem;
